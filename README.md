@@ -22,22 +22,6 @@ Understanding churn drivers is critical for crypto platforms like Coinbase. This
 - What interventions could reduce churn?
 - How would we A/B test retention strategies?
 
-## 🚀 Quick Start
-
-### Prerequisites
-```bash
-Python 3.8+
-pip install -r requirements.txt
-```
-
-### Run the Full Pipeline
-```bash
-# Generate data and train models
-python src/main.py
-
-# View results in the outputs folder
-```
-
 ## 📁 Project Structure
 
 ```
@@ -51,8 +35,7 @@ crypto-churn-prediction/
 │   ├── model_training.py          # ML model development
 │   ├── model_evaluation.py        # Performance analysis
 │   └── sql_queries.py             # Production SQL examples
-├── notebooks/
-│   └── exploratory_analysis.ipynb # EDA and visualizations
+├── exploratory_analysis.ipynb # EDA and visualizations
 ├── outputs/
 │   ├── model_comparison.png
 │   ├── feature_importance.png
@@ -115,14 +98,6 @@ Trained and compared:
 - **Random Forest:** AUC-ROC 0.84, Precision@10% 0.68
 - **Logistic Regression:** AUC-ROC 0.79, Precision@10% 0.61
 
-## 💡 Business Recommendations
-
-### Intervention Strategies
-1. **Re-engagement Campaign:** Target users inactive 7-10 days with personalized trade ideas
-2. **Yield Product Promotion:** Encourage staking adoption among high-balance inactive users
-3. **Portfolio Diversification:** Educate single-asset holders on portfolio building
-4. **Market Volatility Support:** Proactive communication during high volatility periods
-
 ### Proposed A/B Test
 **Hypothesis:** Educational push notifications about yield products reduce churn by 15% for users inactive 7-14 days.
 
@@ -169,11 +144,3 @@ This project demonstrates:
 - A/B test design for validating interventions
 - SQL operationalization of ML models
 
-## 📞 Contact
-
-[Your Name]
-[LinkedIn] | [Email] | [Portfolio]
-
-## 📄 License
-
-MIT License - feel free to use this project as a portfolio piece or learning resource.
