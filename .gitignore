@@ -28,16 +28,16 @@ wheels/
 #*.ipynb
 
 # Data
-*.csv
-*.pkl
+#*.csv
+#*.pkl
 *.joblib
 
 # Outputs (keep folder structure but not files)
-outputs/*.png
-outputs/*.jpg
-models/*.pkl
-sql_outputs/*.sql
-data/*.csv
+#outputs/*.png
+#outputs/*.jpg
+#models/*.pkl
+#sql_outputs/*.sql
+#data/*.csv
 
 # IDE
 .vscode/
